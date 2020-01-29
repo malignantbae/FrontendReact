@@ -64,6 +64,9 @@ class Badges extends React.Component {
             <Link to="/badges/new" className="btn btn-primary">
               New Badge
             </Link>
+
+            
+
           </div>
 
           <BadgesList badges={this.state.data} />

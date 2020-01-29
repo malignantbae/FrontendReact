@@ -56,7 +56,7 @@ function BadgeDetails(props) {
                 }}className="btn btn-primary mb-4">
                   Increase Count: {count}
                 </button>
-
+                <br/>
                 <Link
                   className="btn btn-primary mb-4"
                   to={`/badges/${badge.id}/edit`}
